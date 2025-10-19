@@ -1,0 +1,31 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.product:nth-child(2) {
+  background: url("../assets/images/novaphone.jpg") center / cover;
+}
+
+.product:nth-child(3) {
+  background: url("../assets/images/hyperbook.jpg") center / cover;
+}
+
+.product:nth-child(4) {
+  background: url("../assets/images/lumina.jpg") center / cover;
+}
+
+.product:nth-child(5) {
+  background: url("../assets/images/aerosound.jpg") center / cover;
+}
+
+.product:nth-child(6) {
+  background: url("../assets/images/chronos.jpg") center / cover;
+}
+
+.product:nth-child(7) {
+  background: url("../assets/images/omniscreen.jpg") center / cover;
+}

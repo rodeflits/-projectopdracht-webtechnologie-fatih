@@ -1,0 +1,56 @@
+.back-to-shop {
+    color: black;
+}
+h2{
+    padding: 2rem 0 2rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+main{
+    padding: 2rem;
+    text-align: center
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+figcaption{
+    display: none;
+}
+.description{
+    padding: 2rem 0rem 2rem 0rem;
+    line-height: 1.2rem;
+}
+.specifications{
+    text-align: left;
+    list-style: disc;
+    line-height: 1.2rem;
+}
+li span {
+    font-weight: 550;
+}
+li{
+    padding-bottom: 0.7rem;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: max-content;
+    align-items: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+.cta-button{
+    position: static;
+    transform: none;
+    display: inline-flex;
+}
+.cta-button:hover {
+    transform: translateX(0) scale(1.05);
+}
+.product-heart-icon{
+    color: white;
+    height: 33px;
+}

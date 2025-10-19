@@ -1,0 +1,67 @@
+.best-selling {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.best-seller-icon {
+  height: 40px;
+  color: white;
+}
+
+.number-one-best-seller {
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+  background-image: linear-gradient(#b99309, #f6e27a);
+  color: rgb(255, 255, 255);
+  font-weight: 550;
+  border-radius: 0.5rem;
+  padding: 0.15rem 0.5rem;
+  gap: 0.5rem;
+}
+
+.product:nth-child(2) {
+  background: url("../assets/images/novaphone.jpg") center / cover;
+  border: 2px solid #f6e27a;
+}
+
+.product:nth-child(3) {
+  background: url("../assets/images/hyperbook.jpg") center / cover;
+}
+
+.product:nth-child(4) {
+  background: url("../assets/images/lumina.jpg") center / cover;
+}
+
+.owner-text {
+  position: relative;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.owner-text img {
+  height: 100px;
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -6%;
+  border: black 2px solid;
+}
+
+.owner-text h3 {
+  padding: 4rem 2rem 2.3rem 2rem;
+  border: black 1px solid;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.catalog {
+  padding-bottom: 0.9rem;
+}
