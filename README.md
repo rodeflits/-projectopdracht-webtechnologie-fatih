@@ -1,0 +1,1 @@
+Website is nog niet responsive en de responsiveness op de landingpage is ook nog niet af, dit kwam doordat ik dacht dat het tegen de eerst volgende les pas was van volgende week(week van 20/10). Heb toch gedaan wat ik kon doen.
